@@ -1,7 +1,7 @@
 # _data/butterfly.yml
-index_img: https://source.unsplash.com/random/1920x1080  # 首页大图
-default_top_img: https://example.com/top.jpg            # 默认内页顶部图
-background: "#f4f4f4 url(图片链接) no-repeat center center / cover" # 全站背景
+index_img: /img/pexels-charles-kettor-268979-831475.jpg     # 首页大图
+default_top_img: /img/pexels-charles-kettor-268979-831475.jpg               # 默认内页顶部图
+background: /img/pexels-pixabay-164634.jpg              # 全站背景
 
 nav:
   logo: /img/pexels-harrisonhaines-2834653.jpg # 你的Logo
