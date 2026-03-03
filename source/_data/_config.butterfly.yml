@@ -1,4 +1,44 @@
-封面图 (Cover)：pexels-pixabay-39501.jpg
-头像 (Avatar)：
-打赏功能：
-侧边栏： 
+# _data/butterfly.yml
+index_img: https://source.unsplash.com/random/1920x1080  # 首页大图
+default_top_img: https://example.com/top.jpg            # 默认内页顶部图
+background: "#f4f4f4 url(图片链接) no-repeat center center / cover" # 全站背景
+
+nav:
+  logo: /img/pexels-harrisonhaines-2834653.jpg # 你的Logo
+  display_title: true # 是否显示标题
+  fixed: true        # 导航栏固定在顶部
+  
+# _data/butterfly.yml
+aside:
+  enable: true
+  hide: false
+  button: true # 侧边栏折叠按钮
+  card_author:
+    enable: true
+    avatar: /img/pexels-giorgio-de-angelis-482403-1413412.jpg # 你的头像
+    author: LiJi Do
+    saying: 愿你眼里有星辰，心中有大海。
+  card_announcement:
+    enable: true
+    content: 欢迎来到我的个人博客！
+  card_recent_post:
+    enable: true # 最近文章
+  card_categories:
+    enable: true # 分类卡片
+    
+comments:
+  use:
+    - Giscus
+  lazyload: true
+  
+local_search:
+  enable: true
+  
+font:
+  global-font-size: 16px
+  font-family: "'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif"
+  
+click_effects:
+  enable: true
+  type: firework # 可选: firework(烟花), heart(爱心)
+  
