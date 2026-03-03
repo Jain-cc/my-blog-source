@@ -1,0 +1,54 @@
+# _data/butterfly.yml
+
+# 1. 视觉设置
+# 首页大图（更换为目前可用的随机图接口）
+index_img: /img/pexels-charles-kettor-268979-831475.jpg
+# 默认内页顶部图
+default_top_img: /img/pexels-giorgio-de-angelis-482403-1413412.jpg
+# 全站背景（修正了中文占位符，改为浅灰色背景）
+background:
+
+# 2. 导航栏
+nav:
+  logo: /img/pexels-harrisonhaines-2834653.jpg
+  display_title: true
+  fixed: true
+
+# 3. 侧边栏
+aside:
+  enable: true
+  hide: false
+  button: true
+  card_author:
+    enable: true
+    avatar: /img/pexels-giorgio-de-angelis-482403-1413412.jpg
+    author: LiJi Do
+    saying: 愿你眼里有星辰，心中有大海。
+  card_announcement:
+    enable: true
+    content: 欢迎来到我的个人博客！
+  card_recent_post:
+    enable: true
+  card_categories:
+    enable: true
+
+# 4. 交互功能
+comments:
+  use:
+    - Giscus
+  lazyload: true
+  # 注意：这里下方还需要配置具体的 giscus 映射参数（repo, repo_id 等）才能生效
+
+local_search:
+  enable: true
+  # 必须确保安装了插件：npm install hexo-generator-search --save
+
+# 5. 字体美化
+font:
+  global-font-size: 16px
+  font-family: "'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif"
+
+# 6. 特效
+click_effects:
+  enable: true
+  type: firework
